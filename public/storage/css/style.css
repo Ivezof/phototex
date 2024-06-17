@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+}
+
+body {
+    background: rgba(49, 50, 55, 0.7) !important;
+}
+
+.auth-form {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.login-form {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-block {
+    text-align: center;
+    min-width: 500px;
+}
+
+.input-block input {
+    border: 5px solid #EA510D;
+    border-radius: 35px;
+    height: 50px;
+}
+
+.input-block label {
+    font-size: 34px;
+    color: white;
+}
+
+.submit-btn {
+    background-color: #EA510D !important;
+    color: white;
+    max-width: 320px;
+    font-size: 34px;
+    min-width: 320px;
+    border-radius: 40px;
+}
+
+.login-btn {
+    background-color: #EA510D !important;
+    color: white;
+    font-size: 34px;
+    max-width: 450px;
+    border-radius: 35px;
+    padding: 26px 126px 26px 126px;
+    text-decoration: none;
+}
+
+.text {
+    color: white;
+
+    font-size: 48px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 75px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.head-table {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+
+.search-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.search-input {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    min-width: 350px;
+    color: #EA510D;
+    padding-top: 7px;
+
+}
+
+.search {
+    background-color: #F4F2FF;
+}
+
+.search-input:focus {
+    outline-width: 0;
+}
+
+.search-input::placeholder {
+    color: #EA510D;
+}
+
+.name-page {
+    color: #EA510D;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.line {
+    border: 1px solid #C6C2DE;
+    width: 100%;
+}
+
+.page-head {
+    margin-top: 15px;
+}
+
+.logout {
+
+}
+
+.logout-btn {
+    background-color: #EA510D;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+}
+.table>thead>tr>th {
+    color: #EA510D;
+    text-transform: uppercase;
+}
+
+.status {
+
+}
+
+.status-active {
+    background-color: rgba(22, 192, 152, 40%) !important;
+    overflow: hidden;
+    color: #008767 !important;
+    width: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: 1px solid #00B087;
+    border-radius: 4px;
+}
+
+.status-inactive {
+    background-color: rgba(255, 197, 197, 40%) !important;
+    overflow: hidden;
+    color: #DF0404 !important;
+    width: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: 1px solid #DF0404;
+    border-radius: 4px;
+}
+
+tbody>tr {
+}
+
+.edit_btn {
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+
+}
+
+.btn_add {
+    background-color: #EA510D;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+}
+
+.modal {
+    --bs-modal-color: #EA510D
+}
+
+.label-modal {
+    margin-bottom: 5px;
+}
+
+.category_td>a {
+    color: black;
+    text-decoration: none;
+}
+
+.span_black {
+    color: black;
+}
+
+.pagination {
+    background-color: #F4F2FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.on_page {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.on_page>select {
+    width: 70px;
+    height: 40px;
+}
+
+.on_page_text {
+    margin-top: 10px;
+}
+
+.page_scroll {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.page_num {
+    margin-top: 10px;
+}
+
+.page_arrows {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.arrow {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.arrow_right {
+    transform: rotate(-180deg);
+}
+
+.login-form .invalid-feedback {
+    color: white;
+}
